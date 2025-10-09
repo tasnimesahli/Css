@@ -1,0 +1,10 @@
+body{
+    display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} fieldset{
+    box-shadow: 1px 1px 20px rgb(241, 166, 221);
+} header h1{
+    font-family:
+}
