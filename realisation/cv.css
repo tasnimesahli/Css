@@ -1,10 +1,73 @@
-body{
-    display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-} fieldset{
-    box-shadow: 1px 1px 20px rgb(241, 166, 221);
-} header h1{
-    font-family:
+header {
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+header h1 {
+  color: #032b2b;
+  margin: 0 0 15px 0;
+} header fieldset {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+} header fieldset h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #5a5656;
+} header .img {
+  display: block;
+  margin: 15px auto;
+  border-radius: 50%;
+  border: 2px solid #44054d;
+  box-shadow: 0 0 9px ;
+} nav a {
+  display: block;
+  color: #70316c;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}main {
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  color: #33014a;
+  margin-bottom: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section p, section li {
+  color: #0f0101;
+  line-height: 1.6;
+  font-size: 16px;
+} footer {
+  text-align: center;
+  padding: 15px;
+  color: #777;
+  background-color: white;
+  border-top: 1px solid #ddd;
+} img:hover {
+    transform: rotateY(360deg);
+    transition: 3s;
+}
+
+
+
+
+
+
+
