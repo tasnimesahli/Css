@@ -19,16 +19,33 @@
 
   <main>
     <section>
-        <fieldset>
+        <fieldset class="uu">
       <h2>Mes coordonnées</h2>
       <img src="github.png" alt="icon" width="18" class="icon">
       <img src="email.png" alt="icon" width="18" class="icon1">
       <nav class="linkk">
-      <p>Email : <a href="tasnimsahli97@email.com" target="_blank">tasnimsahli97@email.com</a></p>
+      <p>Email : <a href="tasnimsahli97@email.com" target="_blank">tasnimsahli97@email.com</a></p><br><br>
       <p>GitHub : <a href="https://github.com/tasnimesahli" target="_blank">Mon profil GitHub</a></p>
-      </nav>
+      </nav> 
         </fieldset>
     </section>
+     <fieldset class="oo">
+    <h2>Formulaire de contact</h2>
+    <form action="mailto:tasnimsahli97@email.com" method="post" enctype="text/plain">
+      <label for="name">Nom :</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email :</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message :</label><br>
+      <textarea id="message" name="message" rows="10" required></textarea><br><br>
+
+      <input type="submit" value="Envoyer"><br><br>
+      <input type="reset" value="Réinitialiser">
+    </form>
+  </fieldset>
+</section>
   </main>
 
   <footer>

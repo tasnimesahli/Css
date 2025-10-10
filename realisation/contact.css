@@ -1,72 +1,147 @@
 body {
-  background-color: #f2f2f2;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f6fb;
+  color: #333;
   margin: 0;
   padding: 0;
-} header {
-  background-color: white;
-  padding: 20px;
+}header {
+  background-color: #ffffff;
+  color: rgb(37, 35, 35);
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-} header h1 {
+  padding: 25px 10px;
+  border-bottom: 4px solid #8c8e92;
+}
+header h1 {
   margin: 0;
-  color: #40023f;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-} nav.link {
-  margin-top: 17px;
-} nav.link a {
-  color: #313636;
-  text-decoration:none;
-  margin: 0 10px;
-} nav.link a:hover {
+  font-size: 2em;
+}nav.link {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}nav.link a {
+  color: rgb(115, 114, 126);
+  text-decoration: none;
+  font-weight: small;
+  transition: 0.3s;
+}
+nav.link a:hover {
   text-decoration: underline;
-  text-shadow: 0 0 9px blue;
-} main {
-  max-width: 600px;
-  background-color: rgb(253, 250, 250);
+  color: #003d98;
+}main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 1000px;
   margin: 40px auto;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-} h2 {
-  color: #333;
-  margin-top: 0;
-  text-align: center;
-  text-decoration:underline black;
-} p {
-  color: #0c0528;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}section, fieldset {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid #747d97;
+  box-shadow: 0 4px 10px rgba(13, 0, 0, 0.1);
+}.linkk {
+  display: flex;
+  flex-direction: center;
+  gap: 8px;
+  white-space: nowrap;
+} .uu{
+  height: 300px;
   position: relative;
-  left: 27px;
-} a {
-  color: #022e2e;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-  text-shadow: 0 0 9px rgb(65, 63, 63);
-} .icon, .icon1 {
-  width: 20px;
+  top: 100px;
+}.icon, .icon1 {
   vertical-align: middle;
   margin-right: 5px;
-} .icon{
-   position: relative;
-   top: 69px;
-   
-} .icon1{
+} .linkk{
+  display: block;
   position: relative;
-   top: 37px;
-   right: 30px;
-} .icon:hover{
-   filter: drop-shadow(1px 0 8px black);
-} .icon1:hover{
-   filter: drop-shadow(1px 0 8px rgb(242, 2, 2));
-} footer {
-  text-align: center;
-  padding: 15px;
-  background-color: white;
-  border-top: 1px solid #ddd;
+left: 40px;
 }
+
+nav.linkk a {
+  color: #072fa5;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+}
+
+nav.linkk a:hover {
+  text-decoration: underline;
+  text-shadow: 0 0 9px black;
+}form {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}input:focus, textarea:focus {
+  border-color: #8974fe;
+  outline: none;
+  box-shadow: 0 0 5px rgba(78, 115, 223, 0.4);
+}.buttons {
+  display: flex;
+  justify-content: space-between;
+
+}input[type="submit"],
+input[type="reset"] {
+  background-color: #4e73df;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #2e59d9;
+}footer {
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(146, 141, 141);
+  padding: 12px;
+  margin-top: 40px;
+  border-top: 4px solid #7e8ec0;
+} .icon{
+  position:relative;
+  bottom: -141px;
+  left:18px;
+}.icon1{
+  position:relative;
+  bottom: -34px;
+  left:-12px;
+} .icon:hover{
+  filter: drop-shadow(0 0 9px rgb(5, 0, 0));
+transform: scale(1.3);
+transition: 1s;
+} .icon1:hover{
+  filter: drop-shadow(0 0 9px red);
+transform: scale(1.2);
+transition: 1s;
+} main{
+  opacity: 0;
+  transform: translateY(30px);
+  animation: mainMove 3s ease forwards;
+} @keyframes mainMove{
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
 
 
 
