@@ -7,8 +7,6 @@ text-align: center;
 text-shadow: 2px 2px 4px rgb(62, 60, 58);
 width: 56%;
 margin: auto;
-max-width: 70%;
-min-width: 30%;
 padding: 0%;
 } .photo {
     border: 2px solid grey;
@@ -46,7 +44,8 @@ padding: 0%;
     padding: 4%;
     position: center;
     text-align: center;
-    width: 40%;
+    width: 47%;
+    white-space: nowrap;
 } .two ul:hover{
     background-color: rgb(202, 193, 193);
     transform: translateX(1.3);
