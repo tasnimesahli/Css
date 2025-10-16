@@ -59,6 +59,9 @@ color:rgb(71, 55, 55);
 }.three table th{
     color: rgb(0, 0, 0);
     border: 1px solid rgb(57, 57, 61);
+}.three table td{
+color:rgb(52, 52, 53)
+
 }.four{
    border-bottom: 1px solid grey;
     box-shadow:0 0 9px  grey; 
