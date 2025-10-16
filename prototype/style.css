@@ -41,6 +41,7 @@ main h2{
 }.two ul{
     padding: 15px;
     text-align: center;
+    line-height: 36px;
 }.three{
     height: 150px;
      border-bottom: 1px solid grey;
