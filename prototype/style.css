@@ -9,16 +9,15 @@ fieldset{
     flex-wrap: nowrap;
     gap: 15px;
 }.photo{
-    margin-left:430px;
+    margin-left:250px;
     border-radius: 16px;
 }main{
     display: grid;
 }header{
     border-bottom: 2px solid grey;
 }body{
-    margin: 0%;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin: auto;
+   max-width: 70%;
     margin-top: 15px;
     margin-bottom: 15px;
     background-color: aliceblue;
@@ -42,7 +41,7 @@ margin-top: 60px;
     text-align: center;
     line-height: 30px;
 } .three table{
-    margin-left: 100px;
+    margin-left: 40px;
     width: 350px;
     height: 200px;
     border-radius: 4px;
