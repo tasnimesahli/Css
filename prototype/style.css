@@ -2,6 +2,12 @@ fieldset{
     background-color: rgb(250, 229, 233);
     justify-items: center;
         box-shadow: 1px 2px 9px grey;
+}header nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 15px;
 }.photo{
     margin-left:430px;
     border-radius: 16px;
