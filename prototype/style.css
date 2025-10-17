@@ -56,6 +56,5 @@ text-align: center;
     box-shadow: 0 0 9px black;
 }section:hover{
     background-color: rgb(247, 232, 235);
-    transform: scale();
     transition: 3s;
 }
