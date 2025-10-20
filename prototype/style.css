@@ -4,7 +4,7 @@ fieldset{
     background-color: rgb(250, 229, 233);
     align-items: center;
     justify-items: center;
-        box-shadow: 1px 2px 9px grey;
+    box-shadow: 1px 2px 9px grey;
 }header nav{
     display: flex;
     align-items: center;
