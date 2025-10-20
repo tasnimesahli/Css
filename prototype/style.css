@@ -13,8 +13,6 @@ fieldset{
     gap: 15px;
 }fieldset  img{
     border-radius: 16px;
-}header{
-    border-bottom: 2px solid grey;
 }body{
   margin: auto;
   max-width: 70%;
