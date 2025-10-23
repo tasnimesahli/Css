@@ -6,11 +6,7 @@ body {
   padding: 0;
   background-color: lightblue;
   font-size: 20px;
-}@media (max-width: 1024px) {
-  body {
-    font-size: 14px;
   }
-}
 header {
   background-color: #ffffff;
   color: rgb(37, 35, 35);
